@@ -16,6 +16,8 @@ They were used by the [nascent bulletin board systems](https://es.wikipedia.org/
 lacking cursor movement, a primary reason they became a standard
 adopted by all manufacturers.
 
+See the video [Connect: A Look At Bulletin Board Systems](https://youtu.be/ESaTREAAzww)
+
 Certain sequences of bytes, most starting with `Esc` and `[`, are embedded into the text, 
 which the terminal looks for and interprets as commands, not as character codes.
 
