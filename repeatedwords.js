@@ -18,12 +18,7 @@ for (let file of ARGV) {
   let data = fs.readFileSync(file, {encoding: 'utf8'});
   let count = 0; 
   let highlight = data.replace(xreg, BLUE+'$&'+DEFAULT);
-  let m;
-  let r = /.+/g;
-  while((m = r.exec(highlight))) {
-    console.log(file+": "+m[0]);
-    //console.log(r.lastIndex);
-  }
+  console.log(highlight)
   let h = highlight.replace(
     XRegExp(`
       ^           # o bien es el comienzo
