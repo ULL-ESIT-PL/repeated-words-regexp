@@ -11,8 +11,10 @@ const xreg = XRegExp(`
       `, 
       'xgi'   // opciones: espacios global ignore-case
 );
-const BLUE = '\033[34m'; // \033 begins the escape sequence
-const DEFAULT = '\033[39m';
+const BLUE = '\033[34m';    // \033 begins the escape sequence
+const DEFAULT = '\033[39m'; // [ indicates the color
+                            // 34 is the foreground color blue
+                            //  m indicates the end of the setting
 const ARGV = process.argv.slice(2);
 for (let file of ARGV) {
   let data = fs.readFileSync(file, {encoding: 'utf8'});
