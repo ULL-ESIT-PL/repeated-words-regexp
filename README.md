@@ -26,7 +26,7 @@ which the terminal looks for and interprets as commands, not as character codes.
 - `33` is the foreground color for yellow
 - `m` indicates the end of the setting
 
-Note: \033[39m is used set the color back to the terminal defult
+Note: `\033[39m` is used set the color back to the terminal default
 
 ```JavaScript
 console.log('\033[33m Hello World \033[39m');
