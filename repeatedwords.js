@@ -11,6 +11,8 @@ const xreg = XRegExp(`
       `, 
       'xgi'   // opciones: espacios global ignore-case
 );
+
+// ANSI Escape Codes
 const BLUE = '\033[34m';    // \033 begins the escape sequence
 const DEFAULT = '\033[39m'; // [ indicates the color
                             // 34 is the foreground color blue
