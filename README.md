@@ -21,10 +21,10 @@ See the video [Connect: A Look At Bulletin Board Systems](https://youtu.be/ESaTR
 Certain sequences of bytes, most starting with `Esc` and `[`, are embedded into the text, 
 which the terminal looks for and interprets as commands, not as character codes.
 
-- \033 begins the escape sequence
-- [ indicates the color
-- 33 is the foreground color for yellow
-- m indicates the end of the setting
+- `\033` begins the escape sequence
+- `[` indicates the color
+- `33` is the foreground color for yellow
+- `m` indicates the end of the setting
 
 Note: \033[39m is used set the color back to the terminal defult
 
