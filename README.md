@@ -3,10 +3,21 @@
 * [Descripción del problema y solución en Perl](http://nereida.deioc.ull.es/~pl/perlexamples/node31.html)
 * [Vídeo del profesor](https://youtu.be/GfLkvLM7pA8) Solución en JS
 * [Repo en GitHub](https://github.com/ULL-ESIT-PL/oop-strategy-pattern-lying-out-a-table)
+* [Como usar xregexp en JavaScript](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example) GitHub repo en ULL-ESIT-GRADOII-PL
 
 ### JavaScript - ANSI Escape Codes
 
-ANSI Escape Codes are special characters which can be used to control formatting, colors or other output preferences in a text terminal. Escape Codes are non-printing code and will not appear in the output directly.
+ANSI sequences were introduced in the 1970s to replace vendor-specific
+sequences and became widespread in the computer equipment market
+by the early 1980s. 
+
+They were used by the nascent bulletin board
+systems to offer improved displays compared to earlier systems
+lacking cursor movement, a primary reason they became a standard
+adopted by all manufacturers.
+
+Certain sequences of bytes, most starting with `Esc` and `[`, are embedded into the text, 
+which the terminal looks for and interprets as commands, not as character codes.
 
 - \033 begins the escape sequence
 - [ indicates the color
