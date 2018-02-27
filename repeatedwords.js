@@ -12,7 +12,7 @@ const xreg = XRegExp(`
       'xgi'   // opciones: espacios global ignore-case
 );
 
-// ANSI Escape Codes
+// ANSI Escape Codes: http://en.wikipedia.org/wiki/ANSI_escape_code
 const BLUE = '\033[34m';    // \033 begins the escape sequence
 const DEFAULT = '\033[39m'; // [ indicates the color
                             // 34 is the foreground color blue
@@ -22,7 +22,6 @@ for (let file of ARGV) {
   let data = fs.readFileSync(file, {encoding: 'utf8'});
   let count = 0; 
   let highlight = data.replace(xreg, BLUE+'$&'+DEFAULT);
-  console.log(highlight)
   let h = highlight.replace(
     XRegExp(`
       ^           # o bien es el comienzo
