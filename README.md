@@ -11,8 +11,8 @@ ANSI sequences were introduced in the 1970s to replace vendor-specific
 sequences and became widespread in the computer equipment market
 by the early 1980s. 
 
-They were used by the nascent bulletin board
-systems to offer improved displays compared to earlier systems
+They were used by the [nascent bulletin board systems](https://es.wikipedia.org/wiki/Bulletin_Board_System)
+ to offer improved displays compared to earlier systems
 lacking cursor movement, a primary reason they became a standard
 adopted by all manufacturers.
 
