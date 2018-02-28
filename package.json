@@ -4,7 +4,7 @@
   "description": "",
   "main": "repeatedwords.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node repeatedwords.js one"
   },
   "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
   "license": "ISC",
