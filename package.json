@@ -1,16 +1,15 @@
 {
-  "name": "tema2",
+  "name": "tema2-regexp",
   "version": "1.0.0",
   "description": "",
   "main": "repeatedwords.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node repeatedwords.js one",
+    "test": "node repeatedwords.js one"
   },
   "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.3.1",
-    "colors": "^1.1.2",
     "xregexp": "^4.1.1"
   }
 }
